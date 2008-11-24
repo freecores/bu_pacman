@@ -1,0 +1,20 @@
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+ngdbuild -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "test_memory.ngc" test_memory.ngd
+map -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o test_memory_map.ncd test_memory.ngd test_memory.pcf
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+ngdbuild -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "test_memory.ngc" test_memory.ngd
+par -ise "X:/Display_Controller/Display_Controller.ise" -w -intstyle ise -ol std -t 1 test_memory_map.ncd test_memory.ncd test_memory.pcf
+trce -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -e 3 -s 4 -xml test_memory test_memory.ncd -o test_memory.twr test_memory.pcf -ucf vga_pins.ucf
+bitgen -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -f test_memory.ut test_memory.ncd
+xst -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -ifn "X:/Display_Controller/test_memory.xst" -ofn "X:/Display_Controller/test_memory.syr"
+ngdbuild -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "test_memory.ngc" test_memory.ngd
+map -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o test_memory_map.ncd test_memory.ngd test_memory.pcf
+par -ise "X:/Display_Controller/Display_Controller.ise" -w -intstyle ise -ol std -t 1 test_memory_map.ncd test_memory.ncd test_memory.pcf
+trce -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -e 3 -s 4 -xml test_memory test_memory.ncd -o test_memory.twr test_memory.pcf -ucf vga_pins.ucf
+bitgen -ise "X:/Display_Controller/Display_Controller.ise" -intstyle ise -f test_memory.ut test_memory.ncd

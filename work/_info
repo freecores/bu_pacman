@@ -1,0 +1,49 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dX:\Display_Controller
+T_opt
+VGF?c<GV]zWhG;`<g_7:cn1
+Z2 04 13 4 work test_mem_init fast 0
+Z3 04 4 4 work glbl fast 0
+Z4 =1-001e4fcc37a8-492609ab-2ed-4124
+Z5 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver
+Z6 tExplicit 1
+Z7 OE;O;6.3b;37
+vblk_mem_gen_v2_7
+Z8 I8eLcQ0Qo6<Ll@Fak9;Bfj1
+Z9 VI1c5173oe:n@Ve5RFYK[^3
+Z10 w1227224846
+Z11 8blk_mem_gen_v2_7.v
+Z12 Fblk_mem_gen_v2_7.v
+L0 40
+Z13 OE;L;6.3b;37
+r1
+31
+Z14 o+acc -L mtiAvm
+!s85 0
+vglbl
+Z15 IgDBDcJXU?LgKVgh:>AXbZ0
+Z16 VnN]4Gon>inod6>M^M2[SV1
+Z17 w1202685744
+Z18 8C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Z19 FC:/Xilinx/10.1/ISE/verilog/src/glbl.v
+L0 5
+R13
+r1
+31
+R14
+!s85 0
+vtest_mem_init
+Z20 I==de1SRFMMP300S@OT3><1
+Z21 V?;1Mcjd_6V9OGjBG[3OZU3
+Z22 w1227229595
+Z23 8test_mem_init.v
+Z24 Ftest_mem_init.v
+L0 25
+R13
+r1
+31
+R14
+!s85 0
