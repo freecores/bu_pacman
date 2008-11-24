@@ -1,5 +1,0 @@
-# begin LFP file X:\Display_Controller\vga_pins.lfp
-designfile test_memory.v
-parttype xc3s200-4-ft256
-bus_delimiter 0;
-set_busdelim_onsave 1;

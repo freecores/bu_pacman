@@ -1,6 +1,0 @@
-CommandLine
-C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise X:/Display_Controller/Display_Controller.ise -intstyle ise -ifn X:/Display_Controller/Display_Controller.xst -ofn X:/Display_Controller/Display_Controller.syr -finalclean 1
-s
-FormatString
-xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
-s

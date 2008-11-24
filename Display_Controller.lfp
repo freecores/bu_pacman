@@ -1,5 +1,0 @@
-# begin LFP file X:\Display_Controller\Display_Controller.lfp
-designfile Display_Controller.v
-parttype xc3s200-4-ft256
-bus_delimiter 0;
-set_busdelim_onsave 1;

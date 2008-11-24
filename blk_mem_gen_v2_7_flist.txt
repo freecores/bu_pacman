@@ -1,9 +1,0 @@
-# Output products list for <blk_mem_gen_v2_7>
-blk_mem_gen_v2_7.mif
-blk_mem_gen_v2_7.ngc
-blk_mem_gen_v2_7.v
-blk_mem_gen_v2_7.veo
-blk_mem_gen_v2_7.xco
-blk_mem_gen_v2_7_blk_mem_gen_v2_7_xst_1.ngc_xst.xrpt
-blk_mem_gen_v2_7_flist.txt
-blk_mem_gen_v2_7_xmdf.tcl

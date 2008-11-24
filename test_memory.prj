@@ -1,4 +1,0 @@
-verilog work "generate_add.v"
-verilog work "clock_divider.v"
-verilog work "blk_mem_gen_v2_7.v"
-verilog work "test_memory.v"
